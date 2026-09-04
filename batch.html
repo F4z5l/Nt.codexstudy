@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102226">
+  <meta name="description" content="Explore your CODEXSTUDYS course library, recordings, notes, and practice.">
+  <title>Course library — CODEXSTUDYS</title>
+  <link rel="icon" href="assets/codex-mark.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="batch">
+  <header class="site-header"><nav class="nav container" aria-label="Primary navigation">
+    <a class="brand" href="index.html"><img src="assets/codex-mark.svg" alt=""><span class="brand-name">CODEX<span>STUDYS</span></span></a>
+    <div class="nav-links"><a href="index.html">Home</a><a class="active" href="courses.html">Courses</a><a href="index.html#categories">Categories</a><a href="index.html#resources">Resources</a></div>
+    <div class="nav-actions"><label class="nav-search">⌕<span class="sr-only">Search</span><input class="global-search" placeholder="Search" aria-label="Search"></label><button class="mobile-menu-btn" aria-label="Open navigation" aria-expanded="false">☰</button></div>
+  </nav></header>
+  <section class="detail-hero"><div class="container detail-layout">
+    <div class="detail-cover" id="detailCover"><span class="cover-kicker" id="detailCategory">Course library</span><h2 id="detailCoverTitle">Loading…</h2></div>
+    <div class="detail-copy"><span class="eyebrow">Your learning path</span><h1 id="detailTitle">Loading course…</h1><p id="detailDescription">We’re preparing your course library.</p><div class="detail-stats"><span class="detail-stat"><b id="detailLessons">—</b> lessons</span><span class="detail-stat"><b>Self-paced</b> access</span><span class="detail-stat"><b>Mobile</b> ready</span></div></div>
+  </div></section>
+  <main class="page-main"><div class="container">
+    <div class="tabs" role="tablist"><button class="tab active" data-tab="overview" role="tab">Overview</button><button class="tab" data-tab="content" role="tab">Content explorer</button><button class="tab" data-tab="classes" role="tab">Classes</button><button class="tab" data-tab="resources" role="tab">Resources</button></div>
+    <section class="tab-panel" id="panel-overview"><div class="section-header"><div><span class="eyebrow">A better starting point</span><h2>Make this your place to begin.</h2></div><p>Move through the library at your pace. Pick a folder, open a lesson, and return whenever you’re ready.</p></div><div class="quick-grid"><div class="quick-link"><span><i class="quick-icon">▰</i>Structured folders</span><span>01</span></div><div class="quick-link"><span><i class="quick-icon">▶</i>Video lessons</span><span>02</span></div><div class="quick-link"><span><i class="quick-icon">▤</i>Study notes</span><span>03</span></div><div class="quick-link"><span><i class="quick-icon">↗</i>Resume anytime</span><span>04</span></div></div></section>
+    <section class="tab-panel" id="panel-content" hidden><div class="explorer"><div class="explorer-top"><div><div class="eyebrow">Course library</div><div id="breadcrumbs" class="breadcrumbs" aria-label="Breadcrumb"></div></div><div class="toolbar"><label><span class="sr-only">Search library</span><input id="contentSearch" class="field" type="search" placeholder="Search library"></label><label><span class="sr-only">Sort library</span><select id="contentSort" class="field"><option value="type">Folders first</option><option value="name">Name</option></select></label></div></div><div id="contentGrid" class="content-grid" aria-live="polite"></div></div></section>
+    <section class="tab-panel" id="panel-classes" hidden><div class="empty-state"><div class="empty-mark">◷</div><h3>Live classes will appear here</h3><p>When a scheduled session is available, it will be added to this course space.</p></div></section>
+    <section class="tab-panel" id="panel-resources" hidden><div class="empty-state"><div class="empty-mark">✦</div><h3>Keep an eye on this shelf</h3><p>Revision sheets and helpful resources will live here as they are published.</p></div></section>
+  </div></main>
+  <footer class="site-footer"><div class="container footer-bottom"><span>© 2026 CODEXSTUDYS</span><a href="courses.html">Explore more courses ↗</a></div></footer>
+  <nav class="mobile-bottom-nav" aria-label="Mobile navigation"><a href="index.html"><i>⌂</i>Home</a><a class="active" href="courses.html"><i>▦</i>Courses</a><a href="index.html#resources"><i>✦</i>Resources</a><a href="batch.html?id=183"><i>→</i>Start</a></nav>
+  <script src="app.js"></script>
+</body>
+</html>

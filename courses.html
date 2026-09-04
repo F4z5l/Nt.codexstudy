@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102226">
+  <meta name="description" content="Explore CODEXSTUDYS courses for school classes, science, commerce, and entrance preparation.">
+  <title>Courses — CODEXSTUDYS</title>
+  <link rel="icon" href="assets/codex-mark.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="courses">
+  <header class="site-header"><nav class="nav container" aria-label="Primary navigation">
+    <a class="brand" href="index.html"><img src="assets/codex-mark.svg" alt=""><span class="brand-name">CODEX<span>STUDYS</span></span></a>
+    <div class="nav-links"><a href="index.html">Home</a><a class="active" href="courses.html">Courses</a><a href="index.html#categories">Categories</a><a href="index.html#resources">Resources</a></div>
+    <div class="nav-actions"><label class="nav-search">⌕<span class="sr-only">Search courses</span><input class="global-search" placeholder="Search" aria-label="Search courses"></label><a class="btn btn-primary btn-small" href="batch.html?id=183">Open library</a><button class="mobile-menu-btn" aria-label="Open navigation" aria-expanded="false">☰</button></div>
+  </nav></header>
+  <main class="page-main"><div class="container">
+    <div class="page-heading"><div><span class="eyebrow">The learning shelf</span><h1>Choose your next<br><em style="color:var(--teal)">good step.</em></h1><p>Browse focused paths by class, subject, or exam. Every course is designed to make progress feel visible.</p></div><div class="hero-note"><span class="pill">Updated for 2026–27</span></div></div>
+    <div class="toolbar"><label class="search-field"><span class="sr-only">Search courses and subjects</span><input id="courseSearch" class="field search-field" type="search" placeholder="Search courses, subjects, or exams…"></label><label><span class="sr-only">Filter category</span><select id="courseCategory" class="field"><option value="">All categories</option><option>School</option><option>Science</option><option>Commerce</option><option>Entrance</option></select></label><label><span class="sr-only">Sort courses</span><select id="courseSort" class="field"><option value="latest">Latest first</option><option value="az">A–Z</option><option value="type">Category</option></select></label></div>
+    <div id="courseGrid" class="course-page-grid" aria-live="polite"></div>
+  </div></main>
+  <footer class="site-footer"><div class="container footer-bottom"><span>© 2026 CODEXSTUDYS</span><span><a href="index.html">Back to home ↗</a></span></div></footer>
+  <nav class="mobile-bottom-nav" aria-label="Mobile navigation"><a href="index.html"><i>⌂</i>Home</a><a class="active" href="courses.html"><i>▦</i>Courses</a><a href="index.html#resources"><i>✦</i>Resources</a><a href="batch.html?id=183"><i>→</i>Start</a></nav>
+  <script src="app.js"></script>
+</body>
+</html>
